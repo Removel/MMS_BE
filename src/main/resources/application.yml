@@ -1,0 +1,16 @@
+#spring配置
+spring:
+  application:
+    name: MMS_BE
+
+  #数据库信息
+  datasource:
+    url: jdbc:mysql://localhost:3306/mms_be
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: yyj060730
+
+#Mybatis的相关配置
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
